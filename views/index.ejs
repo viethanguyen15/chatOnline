@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>chatonline</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="layout.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="xuly.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="loginForm" style="width: 350px; height: 350px; background-color: #FFFFFF; border-radius: 10px;">
+			<h2 style="color: #2F4F4F; font-size: 25px; font-weight: bold; margin-left: 75px;">Account Login</h2>
+			<br>
+			<div style="font-size: 18px; margin-left: 30px;">Username</div>
+			<div class="form-group" style="margin-left: 30px;">
+				<input type="text" id="txtUsername" class="form-control" autofocus style="width: 80%;">
+			</div>	
+			<input type="submit" name="" value="Register" id="btnRegister" style="margin-left: 30px;">
+		</div>
+
+		<div id="chatForm">
+			<div id="left">
+				<div id="boxTitle">User Online</div>
+				<div id="boxContent"></div>
+			</div>
+			<div id="right">
+				<div id="userLogin">
+					hello <span id="currentUser" style="font-size: 22px;">Ha</span>
+					<input type="submit" id="btnLogout" value="Logout">
+				</div>
+
+				<div id="listMessages"></div>
+				<div id="info"></div>
+				<input type="text" id="txtMessage" >
+				<input type="submit" id="btnSendMessage" value="Send">
+			</div>
+		</div>
+	</div>
+</body>
+</html>

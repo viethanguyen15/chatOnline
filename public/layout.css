@@ -1,0 +1,82 @@
+body{
+	background-color: #DCDCDC;
+}
+#wrapper{
+	width: 800px;
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 450px;
+}
+#btnRegister{
+	background-color: #2F4F4F;
+	color: #FFFFFF;
+	width: 130px;
+	height: 50px;
+	font-size: 18px;
+	border-radius: 27px;
+}
+#btnRegister:hover{
+	background-color: green;
+	transition: 0.3s;
+}
+#left, #right{
+	min-height: 30px;
+}
+#left{
+	width: 30%;
+	float: left;
+	background-color: #b6e899;
+}
+#right{
+	width: 70%;
+	float: right;
+	background-color: #99d8ca;
+}
+#boxTitle{
+	border: 1px solid #2F4F4F;
+	padding: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+#boxContent{
+	border: 1px solid #2F4F4F;
+	padding: 5px;
+	text-align: center;
+}
+#btnLogout{
+	background-color: #2F4F4F;
+	color: #FFFFFF;
+	width: 100px;
+	height: 40px;
+	font-size: 18px;
+	border-radius: 27px;
+}
+#btnLogout:hover{
+	background-color: #2259d8;
+	transition: 0.3s;
+}
+#userLogin{
+	text-align: right;
+}
+#listMessages{
+	height: 200px;
+	background-color: #e5cc99;
+}
+#txtMessage{
+	background-color: transparent;
+	border: 1px solid #2F4F4F;
+	border-radius: 10px;  
+}
+#btnSendMessage{
+	background-color: #FF0000;
+	color: #FFFFFF;
+	width: 100px;
+	height: 40px;
+	font-size: 18px;
+	border-radius: 27px;
+}
+#btnSendMessage:hover{
+	background-color: #ffeb11;
+	color: black;
+	transition: 0.2s;
+}
